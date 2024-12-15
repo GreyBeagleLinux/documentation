@@ -1,8 +1,8 @@
 site:
   title: Grey Beagle Linux
-  start_page: Grey Beagle Linux::index.adoc
+  start_page: grey-beagle-linux::index.adoc
   robots: allow
-  url: https://greybeaglelinux.github.io/documentation
+  url: https://greybeaglelinux.github.io/documentation/
 
 content:
   sources:
@@ -11,7 +11,7 @@ content:
 
 ui:
   bundle:
-    url: https://github.com/GreyBeagleLinux/antora-ui/releases/download/1.0.2/ui-bundle.zip
+    url: https://github.com/GreyBeagleLinux/antora-ui/releases/download/1.0.3/ui-bundle.zip
     snapshot: true
   supplemental_files:
   - path: ui.yml
