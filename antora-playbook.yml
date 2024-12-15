@@ -8,8 +8,8 @@ content:
   sources:
   - url: .
     branches: HEAD
-  - url: https://github.com/GreyBeagleLinux/images
-    branches: HEAD
+  - url: https://github.com/GreyBeagleLinux/images.git
+    branches: main
     start_path: docs
 
 ui:
@@ -26,3 +26,6 @@ ui:
 antora:
   extensions:
   - '@antora/lunr-extension'
+
+runtime:
+  fetch: true
