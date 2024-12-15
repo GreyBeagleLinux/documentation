@@ -1,9 +1,8 @@
 site:
   title: Grey Beagle Linux
-  start_page: index.adoc
+  start_page: grey-beagle-linux::index.adoc
   robots: allow
-  # TODO: set GH Pages URL
-  # url: https://docs.example.org  
+  url: https://greybeaglelinux.github.io/documentation
 
 content:
   sources:
@@ -20,10 +19,6 @@ ui:
       static_files:
       - .nojekyll
   - path: .nojekyll
-  # TODO: setup custom domain
-  # - path: CNAME
-  #   contents: |
-  #     gbl.lts-linux.eu
 
 antora:
   extensions:
