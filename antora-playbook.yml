@@ -1,0 +1,30 @@
+site:
+  title: Grey Beagle Linux
+  start_page: index.adoc
+  robots: allow
+  # TODO: set GH Pages URL
+  # url: https://docs.example.org  
+
+content:
+  sources:
+  - url: .
+    branches: HEAD
+
+ui:
+  bundle:
+    url: https://github.com/GreyBeagleLinux/antora-ui/releases/download/1.0.1/ui-bundle.zip
+    snapshot: true
+  supplemental_files:
+  - path: ui.yml
+    contents: |
+      static_files:
+      - .nojekyll
+  - path: .nojekyll
+  # TODO: setup custom domain
+  # - path: CNAME
+  #   contents: |
+  #     gbl.lts-linux.eu
+
+antora:
+  extensions:
+  - '@antora/lunr-extension'

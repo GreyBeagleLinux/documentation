@@ -1,0 +1,5 @@
+name: Grey Beagle Linux
+version: ~
+title: Grey Beagle Linux
+nav:
+- modules/ROOT/nav.adoc
