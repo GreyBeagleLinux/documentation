@@ -1,1 +1,2 @@
-* xref:new-page.adoc[]
+* xref:gbl-boards::index.adoc[]
+

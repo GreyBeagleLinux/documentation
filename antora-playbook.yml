@@ -8,6 +8,9 @@ content:
   sources:
   - url: .
     branches: HEAD
+  - url: https://github.com/GreyBeagleLinux/images
+    branches: HEAD
+    start_path: docs
 
 ui:
   bundle:
